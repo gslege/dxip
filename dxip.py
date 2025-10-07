@@ -1,7 +1,7 @@
 import sys
 import re
 from typing import List, Set, Tuple, Optional
-pip install beautifulsoup4
+
 import requests
 from bs4 import BeautifulSoup
 
