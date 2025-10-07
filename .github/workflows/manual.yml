@@ -1,3 +1,4 @@
+pip install beautifulsoup4
 name: Run Python and Commit Result
 
 on:
