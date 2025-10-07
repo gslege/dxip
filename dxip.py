@@ -196,7 +196,7 @@ def main() -> int:
 
     # Write to dx.txt and also print to console, format: "IP  Cloudflare-<速度>"
     lines = [
-        f"{ip}  Cloudflare-{display}"  # two spaces between IP and Cloudflare
+        f"{ip} [ Cloudflare ] {display}"  # two spaces between IP and Cloudflare
         for ip, mbps, display in items
     ]
     try:
